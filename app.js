@@ -26,13 +26,23 @@ function StartZmena(){
         document.getElementById("prvni").className = "druha_strana";
         document.getElementById("druhy").className = "prvni_strana";
         document.getElementById("hlava2").innerText = "👩";
+        document.getElementById("telo2").innerText = "👕";
+        document.getElementById("kalhoty2").innerText = "👖";
+        document.getElementById("boty2").innerText = "🦶 🦶";
     }
     else{
         console.log("Vybral jsi muže");
         document.getElementById("prvni").className = "druha_strana";
         document.getElementById("druhy").className = "prvni_strana";
         document.getElementById("hlava2").innerText = "👨‍🦰";
+        document.getElementById("telo2").innerText = "👕";
+        document.getElementById("kalhoty2").innerText = "👖";
+        document.getElementById("boty2").innerText = "🦶 🦶";
+        
     }
+
+    let outfity = ["Do práce", "Do divadla", "Na pláž"];
+    
     
     
 }
