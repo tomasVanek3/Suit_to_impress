@@ -1,0 +1,22 @@
+{
+    "name": "Suit To Impress",
+    "short_name": "Game",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    
+    "icons": [
+        {
+            "src": "/icons/obličej.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/šaty.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        
+    
+    ]
+    }
+    
