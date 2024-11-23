@@ -9,3 +9,30 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+boolean = false;
+function MuzZmena(){
+    document.getElementById("hlava").innerText = "👨‍🦰";
+    boolean = true
+}
+
+function ZenaZmena(){
+    document.getElementById("hlava").innerText = "👩";
+    boolean = false
+}
+
+function StartZmena(){
+    if (boolean == false){
+        console.log("Vybral jsi ženu");
+        document.getElementById("prvni").className = "druha_strana";
+        document.getElementById("druhy").className = "prvni_strana";
+        document.getElementById("hlava2").innerText = "👩";
+    }
+    else{
+        console.log("Vybral jsi muže");
+        document.getElementById("prvni").className = "druha_strana";
+        document.getElementById("druhy").className = "prvni_strana";
+        document.getElementById("hlava2").innerText = "👨‍🦰";
+    }
+    
+    
+}
